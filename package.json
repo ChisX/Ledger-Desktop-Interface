@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "nano-desktop-interface",
+  "version": "1.0.0",
+  "description": "Desktop interface build for Ledger Nano devices",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Arcane Technologies",
+  "dependencies": {
+    "@ledgerhq/hw-app-btc": "^6.7.0",
+    "@ledgerhq/hw-app-eth": "^6.6.0",
+    "@ledgerhq/hw-app-xrp": "^6.7.0",
+    "@ledgerhq/hw-transport-node-hid": "^4.38.6",
+    "arcane-bch-wallet": "^2.0.2",
+    "arcane-btc-wallet": "^2.0.1",
+    "babel-polyfill": "^6.26.0",
+    "ripple-binary-codec": "^1.1.3",
+    "web3": "^1.5.3"
+  },
+  "devDependencies": {
+    "electron": "^4.0.3"
+  }
+}
